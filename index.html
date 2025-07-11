@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Exercício 11</title>
+</head>
+<body>
+    <h1>Escalação de jogadores</h1>
+
+    <form id="lineup-form">
+        <fieldset>
+            <legend>Escalar jogador</legend>
+            <label for="player-name">Nome do jogador:</label>
+            <input type="text" name="playerName" id="player-name">
+
+            <label for="player-number">Número da camisa do jogador:</label>
+            <input type="number" name="playerNumber" id="player-number">
+
+            <label for="player-position">Posição do jogador:</label>
+            <input type="text" name="playerPosition" id="player-position">
+
+            <button id="lineup-button" type="button">Escalar jogador</button>
+        </fieldset>
+        <fieldset>
+            <legend>Remover jogador</legend>
+            <label for="player-number-remove">Número da camisa do jogador:</label>
+            <input type="number" name="playerNumber" id="player-number-remove">
+
+            <button id="remove-button" type="button">Remover jogador</button>
+        </fieldset>
+    </form>
+    <section>
+        <h2>Time</h2>
+        <div id="team-list"></div>
+    </section>
+    
+    <script src="./script.js" defer></script>
+</body>
+</html>
