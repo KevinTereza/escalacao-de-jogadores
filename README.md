@@ -1,4 +1,4 @@
-# Exercício 11 da (formação Javascript da onebitcode)[https://onebitcode.com/javascript]
+# Exercício 11 da [formação Javascript da OneBitCode](https://onebitcode.com/javascript)
 
 ### Escalação do Time
 
@@ -14,3 +14,10 @@ Construa uma página web que permita montar a escalação de um time de jogadore
     - Informar o número da camisa do jogador.
     - Ter um botão “Remover” que pergunta ao usuário se ele deseja confirmar a remoção daquele jogador e então exclui ele da lista na página.
     - Após o jogador ser removido o campo de texto deve ser limpo.
+
+## 🖼️ Demonstração
+![Demonstração do Projeto](./github-readme.png)
+
+## 🔗 Link para o Deploy
+
+[Acesse o projeto na Vercel](https://escalacao-de-jogadores.vercel.app/) 
